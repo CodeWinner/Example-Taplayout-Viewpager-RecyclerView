@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements HandleEvents{
         mViewPager.setAdapter(mBookPagerAdapter);
         mTabLayout.setupWithViewPager(mViewPager);
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mTabLayout));
+        mViewPager.setPageTransformer(true,new ZoomOutPageTransformer());
         mTabLayout.getTabAt(0).setIcon(icons[0]);
         mTabLayout.getTabAt(1).setIcon(icons[1]);
         mTabLayout.getTabAt(2).setIcon(icons[2]);
