@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewManyTypeItem</string>
+    <string name="tab_name">Tab giỏ hàng</string>
+    <string name="tab_infor">Tab thông tin người dùng</string>
+</resources>
